@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, a {
+    padding: 1em;
+    color: rgb(0, 45, 97);
+    text-decoration: none;
+    list-style: none;
+}
+
+.br-header {
+    padding: .8em;
+    display: flex;
+    flex-direction: row;
+}
+
+.header, .title, .br-item {
+    display: flex;
+    flex-direction: row;
+    font: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.site-title p {
+    font-size: 4em;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo img {
+    width: 16.2em;
+    height: 3.8em;
+}
+
+#search-form-1 {
+    padding: .4em;
+    width: 16em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  footer {
+    background-color: #22543D;
+    color: white;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .logo img {
+    max-width: 250px;
+  }
+  .links h3 {
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  .links ul li {
+    margin-bottom: 8px;
+  }
+  .links a {
+    color: white;
+    text-decoration: none;
+  }
+  .links a:hover {
+    text-decoration: underline;
+  }
+  .address p {
+    margin: 8px 0;
+  }
+  .copyright {
+    border-top: 1px solid #1C4532;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
